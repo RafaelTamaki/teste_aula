@@ -13,6 +13,11 @@ import br.fepi.socialbooks.repository.LivrosRepository;
 @RestController
 public class LivrosResources {
 	
+	/**
+	 * Método que lista todos os livros
+	 * @return
+	 */
+	
 	@Autowired
 	private LivrosRepository livrosRepository;
 	
